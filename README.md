@@ -13,15 +13,39 @@ Dibuat untuk memenuhi tugas final project mata kuliah Pemrograman Berorientasi O
 Untuk melihat diagram di bawah ini, instal plugin mermaid-diagram di https://github.com/Redisrupt/mermaid-diagrams
 
 ### Class Diagram
-
 ```mermaid
-
+classDiagram
+    department <|-- faculty
+    
+    class department{
+      +int id
+      +varchar name
+      +created timestamp
+      
+    }
+    
+    class faculty{
+      +int id
+      +varchar name
+      +created timestamp
+    }
 ```
 
 ### ER Diagram
-
 ```mermaid
-
+erDiagram
+          department ||..|| faculty : is
+         
+          department {
+            int id
+            varchar name
+            created timestamp
+          }
+          faculty{
+             int id
+            varchar name
+            created timestamp
+          }
 ```
 
 ### Desain Class Diagram untuk JavaFX dan Database
