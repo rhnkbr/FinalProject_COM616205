@@ -1,3 +1,9 @@
+# Nama Kelompok dan Pembagian Tugas
+Abbie Syeh Nahri - 1917051018 (Membuat Codingan Program main, fxml dan controller, MYSQLConnection database, interface)
+Irfan Yadi - 1917051032 (membuat ER readme.md, sql, code entitas department dan Faculty)
+Mohammed Raihan Akbar - 1917051061 (addData Department(DapertmentDaoImpl), addData Faculty(FacultyDaoImpl), Class Diagram readme.md, Design Class Diagram untuk javaFX dan Database)
+
+
 # 🏫 Sistem Manajemen Fakultas dan Jurusan
 > Sistem dapat digunakan untuk merekam data pembuatan fakultas dan jurusan, termasuk waktu pembuatannya.
 > Fakultas dan Jurusan dapat memiliki lebih dari satu entry.
