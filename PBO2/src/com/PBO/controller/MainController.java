@@ -18,9 +18,6 @@ import java.net.URL;
 import java.sql.SQLException;
 import java.util.ResourceBundle;
 
-/**
- * @author PBO Tan
- */
 public class MainController implements Initializable {
     @FXML
     private TextField txtFacultyName;
