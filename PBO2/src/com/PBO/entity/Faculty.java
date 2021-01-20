@@ -1,8 +1,5 @@
 package com.PBO.entity;
 
-/**
- * @author PBO Tan
- */
 public class Faculty {
 
     private int id;
