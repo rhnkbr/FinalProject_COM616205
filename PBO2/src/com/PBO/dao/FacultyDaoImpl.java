@@ -11,9 +11,7 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * @author PBO Tan
- */
+
 public class FacultyDaoImpl implements DaoService<Faculty> {
 
     @Override
